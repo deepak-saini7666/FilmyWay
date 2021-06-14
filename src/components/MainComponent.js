@@ -47,8 +47,7 @@ class Main extends Component {
               <Switch>
               <Route path='/home'  />
               <Route path='/aboutus' />
-              <Route exact path='/menu' />
-              <Route path='/menu/:dishId' />
+              <Route exact path='/movies' />
               <Route exact path='/contactus' />
               <Redirect to="/home" />
               </Switch>
